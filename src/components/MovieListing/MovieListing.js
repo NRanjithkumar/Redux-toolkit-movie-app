@@ -12,7 +12,7 @@ const MovieListing = () => {
   const shows = useSelector(getAllShows);
  // console.log("Data is",movies);
   let renderMovies,renderShows="";
-  
+  console.log(movies.Response)
   renderMovies = 
   movies.Response==="True" ? ( 
     movies.Search.map((movie,index) => (
