@@ -1,0 +1,87 @@
+@import "../../common/colors.scss";
+
+.movie-section{
+    display:flex;
+    justify-content: space-evenly;
+    padding:40px 0px;
+    color:$font-primary;
+    font-weight: 400;
+}
+
+.movie-rating{
+    padding-left: 3px;
+    margin-top: 20px;
+    color: $font-secondary;
+    display: flex;
+    span{
+        margin-right: 20px;
+    }
+}
+
+.movie-title{
+    font-size: 40px;
+    color:$font-primary;
+}
+
+.movie-plot{
+    margin-top: 20px;
+    line-height:1.8rem;
+}
+
+.movie-info > div span:first-child{
+    padding:10px 0px;
+    color:$font-primary;
+    font-weight: 600;
+    width: 100px;
+    display:inline-block;
+}
+
+.movie-info > div span{
+    color:$font-secondary;
+}
+
+.fa-star{
+    color: #ff9e00;
+}
+
+.fa-thumbs-up{
+    color: #fafafa;
+}
+
+.fa-flim{
+    color: rgb(191,213,214);
+}
+
+.fa-calendar{
+    color: peachpuff;
+}
+
+.section-right{
+    margin-left: 30px;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
